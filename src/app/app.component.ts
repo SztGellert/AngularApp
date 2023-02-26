@@ -15,4 +15,8 @@ export class AppComponent {
     this.listOfLanguages.push(this.language)
     console.log(this.listOfLanguages)
   }
+
+  deleteFirst() {
+    this.listOfLanguages.splice(0, 1)
+  }
 }
