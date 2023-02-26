@@ -1,2 +1,5 @@
 <h1>This is an example Angular App!</h1>
 <p>Made by: {{ memberName }}</p>
+<h3>Add a new language!</h3>
+<input type="text" [(ngModel)]="language"/>
+<button (click)="addLanguage()">Add</button>
